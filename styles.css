@@ -85,7 +85,19 @@ ul, ol {
 }
 
 section {
-    margin-bottom: 10rem;
+    margin-bottom: -14rem;
+    padding: 7rem 0;
+}
+
+section:first-of-type {
+    position: relative;
+    top: -7rem;
+}
+
+section:last-of-type {
+    margin-bottom: 14rem;
+    position: relative;
+    top: 10rem;
 }
 
 #main h3 {
